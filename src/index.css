@@ -3,6 +3,28 @@
 
 /* Custom config below */
 
+@theme {
+
+  /* COLORS */
+  --primary: #1DA1F2;
+  --secondary: #14171A;
+  --accent: #657786;
+  --neutral: #AAB8C2;
+  --base-100: #FFFFFF;
+  --info: #3ABFF8;
+  --success: #36D399;
+  --warning: #FBBD23;
+  --error: #F87272;
+
+  /* SIZING */
+  --clamp-0: clamp(85vw; 90vw; 95vw);
+  --clamp-sm: clamp(60vw; 75vw; 90vw);
+
+}
+
+
+/* BELOW IS OLD METHOD - NOT v4.0 */
+
 /* @theme {
   extend: {
     colors: {
@@ -16,8 +38,14 @@
       warning: "#FBBD23",
       error: "#F87272",
     },
-  },
-}
+    width: {
+      'clamp-0': 'clamp(85vw, 90vw, 95vw)',
+      'clamp-sm': 'clamp(60vw, 75vw, 90vw)',
+    }
+  }
+} */
+
+/*  
 @layer components {
   .btn-primary {
     @apply bg-primary text-white;
@@ -26,6 +54,7 @@
     @apply bg-secondary text-white;
   }
 }
+
 @layer utilities {
   .bg-primary {
     @apply bg-primary;
@@ -34,6 +63,7 @@
     @apply bg-secondary;
   }
 }
+
 @layer base {
   body {
     @apply bg-base-100 text-neutral;
@@ -42,6 +72,7 @@
     @apply text-primary;
   }
 }
+
 @layer forms {
   input, textarea, select {
     @apply border-neutral;
@@ -50,6 +81,7 @@
     @apply border-primary;
   }
 }
+
 @layer typography {
   h1 {
     @apply text-3xl font-bold;
