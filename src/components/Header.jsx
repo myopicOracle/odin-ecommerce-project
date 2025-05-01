@@ -12,15 +12,18 @@ const Header = () => {
     return (
 
         <div className="header flex justify-between items-center">
+            
             <div className="flex-col gap-4 p-4">
                 <h1 className="text-2xl">Version Practice</h1>
                 <h2>Context API</h2>
             </div>
+            
             <nav className='w-auto h-full flex justify-center gap-4'>
                 <a href="">Home</a>
                 <a href="">Shop</a>
                 <a href="">Orders</a>
             </nav>
+            
             <div className='flex items-center'>
                 <button className="cart-button flex gap-2" onClick={() => setCartCount(cartCount + 1)}>
                     <span className="cart-icon p-2">🛒</span>
@@ -28,7 +31,9 @@ const Header = () => {
                 </button>
                 <button className="login-button bg-amber-700 py-2 px-4 mx-2 text-white font-semibold rounded-xl">Login</button>
             </div>
+            
         </div>
+
     )
 }
 
