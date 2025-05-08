@@ -13,6 +13,7 @@ function App() {
     const [cartCount, setCartCount] = useState(0)
     const [productsArray, setProductsArray] = useState(productData)
 
+    console.log("//////////////////////////THIS BEGINS A NEW RUN////////////////////////////");
     console.log("App.jsx -- function App() Check, cart count: ", cartCount);
 
     return (
