@@ -33,4 +33,4 @@
 
 ---
 [GitHub Project Repo](https://github.com/myopicOracle/YummyBuy.ca)  
-[GitHub Projects Kanaban Board](https://github.com/users/myopicOracle/projects/2)
+[GitHub Projects Kanaban Board](https://github.com/users/myopicOracle/projects/3)
