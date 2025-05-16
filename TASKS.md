@@ -4,7 +4,7 @@
 
 | Tasks - Sort by Priority                                                | Commit                                                               |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| - [ ] Add Draft Issues to new GitHub Projects kanban board for tracking | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Add Draft Issues to new GitHub Projects kanban board for tracking | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Define folder structure for components, pages, context, util, etc | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Implement increment and "Add to Cart" logic to Product Card       | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Build Cart component, show cart items and total (drawer v. page?) | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |

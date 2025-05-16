@@ -23,23 +23,25 @@
 
 ---
 
-### **May 14, 2025**
+### **May 15, 2025**
 
 - **What I did**:
-  -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+  -  Add Draft Issues to new GitHub Projects kanban board for tracking
+  -  Set up sprint 1 tasks as issues in repo and closed the completed items
 
 - **Challenges**:
   -  n/a
 
 - **Next steps**:
-  -  n/a
+  - Restructure folder and adjust component relationships based on new architecture
+  - Begin scoping work on Cart component and state/Context
 
 <br></br>
 
 
 ---
 
-### **May 15, 2025**
+### **May 16, 2025**
 
 - **What I did**:
   -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
