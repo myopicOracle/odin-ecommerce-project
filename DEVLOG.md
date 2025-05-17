@@ -44,6 +44,23 @@
 ### **May 16, 2025**
 
 - **What I did**:
+  - add directories for pages, context, data, utils -- ([ ee24bda ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+  - perform clean reinstall of dependencies 
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  add to Cart and increment logic on ProductCard copmonent
+
+<br></br>
+
+
+---
+
+### **May 17, 2025**
+
+- **What I did**:
   -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
 
 - **Challenges**:
