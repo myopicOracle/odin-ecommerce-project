@@ -6,7 +6,7 @@
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | - [x] Add Draft Issues to new GitHub Projects kanban board for tracking | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [x] Define folder structure for components, pages, context, util, etc | [ee24bda](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
-| - [ ] Implement increment and "Add to Cart" logic to Product Card       | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Implement increment and "Add to Cart" logic to Product Card       | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Build Cart component, show cart items and total (drawer v. page?) | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Set up `CartContext` to manage global cart state                  | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Implement remove-item and clear-cart functionality                | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |

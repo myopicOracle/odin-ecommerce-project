@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import ProductList from "./ProductList"
+import ProductList from "/src/components/ProductList"
 
 function Products() {
 

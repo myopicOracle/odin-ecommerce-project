@@ -58,7 +58,23 @@
 
 ---
 
-### **May 17, 2025**
+### **May 20, 2025**
+
+- **What I did**:
+  -  add UI components and event handlers for increment/decrement and add to cart logic
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  create cart component/page and configure context providers
+
+<br></br>
+
+
+---
+
+### **May X, 2025**
 
 - **What I did**:
   -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))

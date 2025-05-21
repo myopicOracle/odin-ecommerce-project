@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { CartContext } from './CartContext';
+import { CartContext } from '/src/context/CartContext';
 
 // console.log("Header.jsx -- TOP LEVEL Check, cart count: ", cartCount);
 
