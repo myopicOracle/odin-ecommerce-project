@@ -1,9 +1,9 @@
 import { useState } from "react"
-import Header from "/src/components/Header"
-import { CartContext } from "/src/context/CartContext.jsx"
-import { ProductContext } from '/src/context/ProductContext'
-import Products from "/src/pages/Products"
-import productData from '/src/data/productData.jsx'
+import Header from "./components/Header"
+import { CartContext } from "./context/CartContext.jsx"
+import { ProductContext } from './context/ProductContext'
+import Products from "./pages/Products"
+import productData from './data/productData.jsx'
 
 // console.log("App.jsx -- TOP LEVEL Check, cart count: ", cartCount);
 
