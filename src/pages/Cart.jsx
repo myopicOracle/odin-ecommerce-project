@@ -1,21 +1,21 @@
-import { useState, useContext } from "react"
-// import { CartContext } from '../context/CartContext'
-
+import { useContext } from 'react'
+import { CartContext } from '../context/CartContext'
+import CartItem from '../components/CartItem'
 
 const Cart = () => {
-    // const { cartCount, setCartCount } = useContext(CartContext)
-    const [ testCount, setTestCount ] = useState(0)
+  const { cartItems } = useContext(CartContext) 
 
-    function handleAddToCart() {
-        setTestCount(prev => prev + 1)
-    }
-
-    return (
-        <div>
-            <h1>{testCount}</h1>
-            <button onClick={handleAddToCart}>Add to Cart</button>
-        </div>
-    )
+  return (
+    <div>
+      <h1>Shopping Cart</h1>
+      {console.log("Cart.jsx -- cartItems: ", cartItems)}
+      <div className="cartContainer w-1/3 grid grid-cols-1" >
+          {cartItems.map(item => (
+            <CartItem item={item} key={item.id}/>
+          ))}
+      </div>
+    </div>
+  )
 }
 
 export default Cart
