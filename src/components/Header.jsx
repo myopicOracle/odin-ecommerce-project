@@ -1,13 +1,14 @@
-import { useContext } from 'react';
-import { CartContext } from '/src/context/CartContext';
+import { useContext } from 'react'
+import { Outlet, Link } from 'react-router-dom'
+import { CartContext } from '/src/context/CartContext'
 
-// console.log("Header.jsx -- TOP LEVEL Check, cart count: ", cartCount);
+// console.log("Header.jsx -- TOP LEVEL Check, cart count: ", cartCount)
 
 
 const Header = () => {
-    const { cartCount, setCartCount } = useContext(CartContext);
+    const { cartCount, setCartCount } = useContext(CartContext)
 
-    console.log("Header.jsx -- function App() Check, cart count: ", cartCount);
+    console.log("Header.jsx -- function App() Check, cart count: ", cartCount)
 
     return (
 
@@ -19,9 +20,9 @@ const Header = () => {
             </div>
             
             <nav className='w-auto h-full flex justify-center gap-4'>
-                <a href="">Home</a>
-                <a href="">Shop</a>
-                <a href="">Orders</a>
+                <Link to="/">Home</Link>
+                <Link to="/products">Shop</Link>
+                <Link to="/cart">Cart</Link>
             </nav>
             
             <div className='flex items-center'>

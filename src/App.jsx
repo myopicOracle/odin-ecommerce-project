@@ -1,15 +1,17 @@
 import { useState } from "react"
-import Header from "./components/Header"
-import { CartContext } from "./context/CartContext.jsx"
+import { Outlet } from "react-router-dom"
+import { CartContext } from "./context/CartContext"
 import { ProductContext } from './context/ProductContext'
-import Products from "./pages/Products"
-import productData from './data/productData.jsx'
+import productData from './data/productData'
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 // console.log("App.jsx -- TOP LEVEL Check, cart count: ", cartCount);
 
 function App() {
     const [cartCount, setCartCount] = useState(0)
     const [productsArray, setProductsArray] = useState(productData)
+    const [cartItems, setCartItems] = useState([])
 
     console.log("//////////////////////////THIS BEGINS A NEW RUN////////////////////////////");
     console.log("App.jsx -- function App() Check, cart count: ", cartCount);
@@ -20,9 +22,10 @@ function App() {
             <div id="outerWrapper" className="outerWrapper h-full w-full sm:w-[90%]">
                 
                 <ProductContext.Provider value={{ productsArray, setProductsArray }} >
-                    <CartContext.Provider value={{ cartCount, setCartCount }} >
+                    <CartContext.Provider value={{ cartCount, setCartCount, cartItems, setCartItems }} >
                         <Header />
-                        <Products />
+                        <Outlet />
+                        <Footer />
                     </CartContext.Provider>
                 </ProductContext.Provider>
 
