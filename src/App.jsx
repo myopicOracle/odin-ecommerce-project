@@ -9,9 +9,9 @@ import Footer from "./components/Footer"
 // console.log("App.jsx -- TOP LEVEL Check, cart count: ", cartCount);
 
 function App() {
-    const [cartCount, setCartCount] = useState(0)
     const [productsArray, setProductsArray] = useState(productData)
     const [cartItems, setCartItems] = useState([])
+    const [cartCount, setCartCount] = useState(cartItems.length)
 
     console.log("//////////////////////////THIS BEGINS A NEW RUN////////////////////////////");
     console.log("App.jsx -- function App() Check, cart count: ", cartCount);

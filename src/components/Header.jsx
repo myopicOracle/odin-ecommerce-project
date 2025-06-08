@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import { CartContext } from '/src/context/CartContext'
 
@@ -6,7 +6,11 @@ import { CartContext } from '/src/context/CartContext'
 
 
 const Header = () => {
-    const { cartCount, setCartCount } = useContext(CartContext)
+    const { cartCount, setCartCount, cartItems, setCartItems } = useContext(CartContext)
+
+    useEffect(() => {
+        setCartCount(cartItems.length)
+    }, [cartItems])
 
     console.log("Header.jsx -- function App() Check, cart count: ", cartCount)
 
@@ -26,7 +30,7 @@ const Header = () => {
             </nav>
             
             <div className='flex items-center'>
-                <button className="cart-button flex gap-2" onClick={() => setCartCount(cartCount + 1)}>
+                <button className="cart-button flex gap-2" onClick={() => setCartCount(prev => prev + 1)}>
                     <span className="cart-icon p-2">🛒</span>
                     <span className="cart-count p-2">{cartCount}</span>
                 </button>

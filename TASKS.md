@@ -6,10 +6,10 @@
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | - [x] Add Draft Issues to new GitHub Projects kanban board for tracking | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [x] Define folder structure for components, pages, context, util, etc | [ee24bda](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
-| - [x] Implement increment and "Add to Cart" logic to Product Card       | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
-| - [ ] Build Cart component, show cart items and total (drawer v. page?) | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
-| - [ ] Set up `CartContext` to manage global cart state                  | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
-| - [ ] Implement remove-item and clear-cart functionality                | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Implement increment and "Add to Cart" logic to Product Card       | [4f0a6cd](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Build Cart component, show cart items and total (drawer v. page?) | [80ce4c8](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Set up `CartContext` to manage global cart state                  | [80ce4c8](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
+| - [x] Implement remove-item and clear-cart functionality                | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Create Checkout page with form for name/email/address             | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Add client-side form validation                                   | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |
 | - [ ] Add responsive styling using Tailwind for mobile and tablet views | [#######](https://github.com/users/myopicOracle/YummyBuy.ca/commit/) |

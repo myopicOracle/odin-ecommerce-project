@@ -1,22 +1,28 @@
-import { useState, useContext } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import { ProductContext } from '../context/ProductContext'
 import { CartContext } from '../context/CartContext'
 
 const ProductCard = ({ item }) => {
-  const { setCartCount, cartItems, setCartItems } = useContext(CartContext)
+  const { cartCount, setCartCount, cartItems, setCartItems } = useContext(CartContext)
   const { productsArray } = useContext(ProductContext)
   const [quantity, setQuantity] = useState(item.qty)
 
+  useEffect(() => {
+    setCartCount(cartItems.length)
+  }, [cartItems])
 
   const handleAddCart = (id) => {
-    setCartCount(prev => prev + 1)
     const item = productsArray.find(product => product.id === id)
+    console.log("ProductCard.jsx -- Added Item: ", item)
+
     setCartItems(prev => ([
       ...prev, 
       item
     ]))
-    console.log("ProductCard.jsx -- Added Item: ", item)
     console.log("ProductCard.jsx -- cartItems Array: ", cartItems)
+
+    // setCartCount(() => cartItems.length) // moved into useEffect
+    console.log("ProductCard.jsx -- cartCount: ", cartCount)
   }
 
   const handleIncrement = () => {

@@ -1,4 +1,4 @@
-const CartItem = ({ item }) => {
+const CartItem = ({ item, deleteBtn }) => {
 
   return (
     <div className="cardContainer  flex-col justify-between items-start gap-4 p-4 m-2 bg-gray-200 rounded-sm">
@@ -14,6 +14,8 @@ const CartItem = ({ item }) => {
 
       <p className="text-lg font-semibold">{item.price}</p>
         {console.log("item.price", item.price)}
+
+      <button className={"bg-amber-400 text-amber-800 p-2 m-1 rounded-lg"} onClick={deleteBtn}>Delete</button>
 
     </div>
   )

@@ -61,7 +61,7 @@
 ### **May 20, 2025**
 
 - **What I did**:
-  -  add UI components and event handlers for increment/decrement and add to cart logic
+  -  add UI components and event handlers for increment/decrement and add to cart logic -- ([ 4f0a6cd ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
 
 - **Challenges**:
   -  n/a
@@ -74,7 +74,39 @@
 
 ---
 
-### **May X, 2025**
+### **June 6, 2025**
+
+- **What I did**:
+  - add Cart page, cartItems array, and display cartItems logic -- ([ 80ce4c8 ](https://github.com/users/myopicOracle/YummyBuy.ca/commit80ce4c8))
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  implement delete item and clear cart functions to cart
+
+<br></br>
+
+
+---
+
+### **June 8, 2025**
+
+- **What I did**:
+  - implement remove-item and clear-cart functionality -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  create checkout page with form-fields
+
+<br></br>
+
+
+---
+
+### **June X, 2025**
 
 - **What I did**:
   -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
