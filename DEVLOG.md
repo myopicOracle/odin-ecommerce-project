@@ -93,7 +93,7 @@
 ### **June 8, 2025**
 
 - **What I did**:
-  - implement remove-item and clear-cart functionality -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+  - implement remove-item and clear-cart functionality -- ([ ff26461 ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/ff26461))
 
 - **Challenges**:
   -  n/a
@@ -105,6 +105,58 @@
 
 
 ---
+
+### **June 9, 2025**
+
+- **What I did**:
+  - scaffold Checkout page with form fields
+  - implement checkout page as child of Cart page, sibling of CartArray
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  implement checkout logic
+
+<br></br>
+
+
+---
+
+
+### **June X, 2025**
+
+- **What I did**:
+  -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  n/a
+
+<br></br>
+
+
+---
+
+
+### **June X, 2025**
+
+- **What I did**:
+  -  -- ([ ####### ](https://github.com/users/myopicOracle/YummyBuy.ca/commit/#######))
+
+- **Challenges**:
+  -  n/a
+
+- **Next steps**:
+  -  n/a
+
+<br></br>
+
+
+---
+
 
 ### **June X, 2025**
 

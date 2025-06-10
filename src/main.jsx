@@ -6,6 +6,8 @@ import App from './App'
 import Products from "./pages/Products"
 import Cart from './pages/Cart'
 import ErrorPage from './pages/ErrorPage'
+import Checkout from './pages/Checkout'
+import CartArray from './components/CartArray'
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,19 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
+        children: [
+          {
+            path: "/cart/cartArray",
+            element: <CartArray />,
+            errorElement: <ErrorPage />
+          },
+          {
+            path: "/cart/checkout",
+            element: <Checkout />,
+            errorElement: <ErrorPage />
+          }
+        ]
       }
     ],
   },
