@@ -26,12 +26,12 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
           {
-            path: "/cart/cartArray",
+            index: true,
             element: <CartArray />,
             errorElement: <ErrorPage />
           },
           {
-            path: "/cart/checkout",
+            path: "checkout",
             element: <Checkout />,
             errorElement: <ErrorPage />
           }
