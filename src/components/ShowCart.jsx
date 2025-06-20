@@ -1,10 +1,11 @@
 import { useContext } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { CartContext } from '../context/CartContext'
 import CartItem from './CartItem'
 
-const CartArray= () => {
-
+const ShowCart= () => {
     const { cartItems, setCartItems } = useContext(CartContext)
+    let navigate = useNavigate()
 
     const handleDelete = (id) => {
         const arrayAfterDel = cartItems.filter(item => item.id !== id)
@@ -12,7 +13,7 @@ const CartArray= () => {
         setCartCount(() => cartItems.length)
     }
 
-    const handleClearCart= () => {
+    const handleClearCart = () => {
         setCartItems(() => [])
         setCartCount(() => cartItems.length)
     }
@@ -27,8 +28,9 @@ const CartArray= () => {
                 ))}
             </div>
             <button className={"bg-amber-600 text-amber-300 font-bold p-4 m-2 rounded-lg"} onClick={handleClearCart}>Clear Cart</button>
+            <button className={"bg-amber-900 text-amber-200 font-bold p-4 m-2 rounded-lg"} onClick={() => navigate("checkout")}>Checkout</button>
         </>
     )
 }
 
-export default CartArray
+export default ShowCart

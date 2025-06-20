@@ -1,7 +1,8 @@
 import { useState, useContext } from "react"
+import { useNavigate } from "react-router-dom"
 
 const Checkout = () => {
-    
+    let navigate = useNavigate()
 
     return (
         <div>
@@ -26,6 +27,7 @@ const Checkout = () => {
 
                 <button type="submit">Submit</button>
             </form>
+            <button className={"bg-amber-900 text-amber-200 font-bold p-4 m-2 rounded-lg"} onClick={() => navigate("/cart")}>Back to Cart</button>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Products from "./pages/Products"
 import Cart from './pages/Cart'
 import ErrorPage from './pages/ErrorPage'
 import Checkout from './pages/Checkout'
-import CartArray from './components/CartArray'
+import ShowCart from './components/ShowCart'
 
 const router = createBrowserRouter([
   {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <CartArray />,
+            element: <ShowCart />,
             errorElement: <ErrorPage />
           },
           {
